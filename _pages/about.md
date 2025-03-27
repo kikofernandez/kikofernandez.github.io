@@ -1,49 +1,102 @@
 ---
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+layout: archive
+title: About
+permalink: /about/
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## About
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am a programming language researcher interested in languages, compilers, functional
+programming, static and dynamic optimisations and type systems. I live in Uppsala
+with my lovely wife and my 2-year old son, Kai.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Below, you can find work-related information regarding my research interests,
+publications, teaching and community service.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### Dedication to Scienfic Excellence
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+- **Two Best Paper Awards.** Scholarly articles on which I am the main author have
+been recognised with two best paper awards at the conferences COORDINATION 2018
+and DisCoTec 2018 – the latter representing the Best Paper award of the series
+of conferences within DisCoTec in the year 2018 (http://www.it.uu.se/about
+us/awards).
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+- **Two Distinguished Artefact Award** Scholarly artefacts that I have co-author
+have been recognised with the Distinguished Artefact Award at the European
+Conference on Object-Oriented Programming 2019 (ECOOP'19) for our artefact on
+the implementation of Control- and Data-Flow Futures ([paper
+here](http://drops.dagstuhl.de/opus/volltexte/2019/10794/), [artefact
+here](http://drops.dagstuhl.de/opus/volltexte/2019/10778/)), and at the
+International Conference on Software Language Engineering (SLE'19) for our artefact
+on the design and implementation of a monadic type checker.
 
-**Markdown generator**
+- **Scholarly Output.** In my 4 years of study since joining Uppsala University,
+I have 9 publications that range from recognised conferences in my field, to
+journals, 2 artefact publications, and an educational symposium on the design of
+a software design course. I also have publications which are not co-authored by
+my adviser.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+### Dedication to Teaching Excellence
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- **Head Teacher for Advanced Course.** Going above and beyond the teaching duties
+normally expected from a PhD student, I am the head teacher for an entire course
+(Advanced Software Design (ASD), with ~80 students yearly). This arrangement has
+been ongoing since 2016.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+- **Improving Student Satisfaction.** Following my taking on, and updating the ASD
+course, the overall satisfaction of students increased (based on course
+evaluations) taking the course from a mean of 2.6 (and median of 3) before I
+took on the course, to a mean of 3.9 (and median of 4.0).
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- **Didactic Science and Collaboration Across Faculties.** During the academic year
+2017/18, I introduced a gamification element in the ASD course. This led to a
+didactic publication outside of my main research area and was done in
+collaboration with the department of Business Studies. The work was published at
+[EduSymp'18 Symposium](https://dl.acm.org/citation.cfm?doid=3270112.3270118).
+
+- **International Visibility for Teaching at Uppsala.** Following the acceptance of
+the EduSymp'18 article, I was awarded a MINT (Centrum för ÄmnesdidaktiskForskning inom
+Matematik, Ingenjörsvetenskap, Naturvetenskap och Teknikvetenskap) to be able
+to attend the conference and present the work to an international community
+(http://www.it.uu.se/about us/awards).
+
+### Dedication to the Scientific and Student Communities at Uppsala and Internationally
+
+My community service expands to areas wider than my research and can have an important societal value, if not at
+ least at the student level.
+
+- **Promotion of Gender Equality.** I have been the [vice-chair of the ACM-W
+student chapter at Uppsala University](http://uu.acm.org) for the last 3 years,
+promoting gender equality. As part of this activity, we successfully got a 6 000
+$ grant from Microsoft, to continue promoting gender equality at Uppsala
+University. This led to the organisation of the Ada Lovelace celebration in
+2017, where we brought international speakers and researchers to promote gender
+equality. We also successfully got a 30 000 SEK scholarship from ID24 to promote
+gender equality.
+
+- **Conference Volunteer Work.** I served as publicity chair for the
+  [DisCoTec conferences in
+  2019](http://www.discotec.org/2019/#organising-committee), [Student
+  Volunteering co-chair at
+  SPLASH'19](https://2019.splashcon.org/committee/splash-2019-organizing-committee),
+  and as a member of the programmer committee at the Workshop on Programming
+  based on Actors, Agents, and Decentralized Control (AGERE!).
+
+- **Advocating for Privacy.** I am part of a student chapter in Uppsala that
+promotes privacy and security technologies, ranging from topics such as email
+encryption to how to surf the web safely.
+
+### Other
+
+- **Promotion of Open Source Technology.** I write articles at
+  [opensource.com](https://opensource.com/users/kikofernandez) and
+  [DZone](https://dzone.com/articles/keep-your-privacy-and-start-encrypting-your-emails). These
+  articles are always posted also in different student channels to promote open
+  source technology among students at Uppsala University.
+
+- **Bridging the Gap between Industry and Academia.** As part of promoting the
+open source technologies, I was accepted to an industry conference,
+PartialConf’18, where I explained how we have built the open source compiler for
+the language Encore, developed at Uppsala University ([Partial’18 in
+Sofia](http://partialconf.com/lineup#kiko-fernandez)).
