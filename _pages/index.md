@@ -4,6 +4,49 @@ title: News
 author_profile: true
 ---
 
+## **June 2025**
+
+- Webinar presentation about how the Erlang Ecosystem Foundation has leveraged and contributed to oss-review-toolkit, published
+  as part of the OpenChain uses cases [here](https://openchainproject.org/news/2025/05/28/ort-and-eef-webinar?utm_content=333985553&utm_medium=social&utm_source=linkedin&hss_channel=lcp-18146973).
+
+## **April 2025**
+
+- Accepted proposal for a panel discussion for the internal Ericsson conference on the topic
+  of Cyber Resilience Act, and what Erlang/OTP is doing about it.
+
+- Accepted talk proposal for the internal Ericsson conference, title:
+
+  ```
+  Once upon a time, researchers at Ericsson develop Erlang/OTP,
+  a programming language for the telecom industry. 39 years later,
+  Erlang/OTP is used by the telecom, messaging, banking, and even
+  game industry. It has been one of the most successful open source
+  projects from Ericsson.
+
+  39 years of history (1986-2025), more than 11000 files in Erlang/OTP, with hundreds of
+  contributions. We could almost sail to the sunset... But the Cyber Resilient Act
+  came to place security requirements on software. 
+
+  - Is Erlang/OTP a well-maintained project that follows best security practices?
+    Is there a way to assess this in the open?
+
+  - What about vulnerabilities?
+
+  - What about licenses (compatibility) of 11000+ files and hundreds of
+    contributions and different author copyrights? As of 2024, Erlang/OTP had a
+    single file (with less 1,500 LoC) to cater for the 11000+ files with different
+    copyrights and licenses.
+
+  The story features the Erlang/OTP collaboration with Ericsson's Open Source
+  Program Office (OSPO), the Erlang Ecosystem Foundation (EEF), and collaborations
+  with different open source projects, and answers the most important question:
+
+  Are Ericsson's core products written in Erlang/OTP CRA safe?
+
+  Erlang/OTP is a critical programming language for Ericsson, with more than 11,000 files.
+  This talk shows how the Erlang/OTP team can satisfy the Cyber Resilience Act and shows you can too.
+  ```
+
 ## **February 2025**
 
 - Talk proposal submitted for the internal Ericsson conference, titled: "Making Erlang/OTP Cyber Resilient Compliant".
