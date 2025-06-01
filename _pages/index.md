@@ -9,6 +9,10 @@ author_profile: true
 - Webinar presentation about how the Erlang Ecosystem Foundation has leveraged and contributed to oss-review-toolkit, published
   as part of the OpenChain uses cases [here](https://openchainproject.org/news/2025/05/28/ort-and-eef-webinar?utm_content=333985553&utm_medium=social&utm_source=linkedin&hss_channel=lcp-18146973).
 
+## *May 2025*
+
+- Me entrevista Manuel Rubio y hablamos de Erlang y Haskell, mis comienzos en Erlang/OTP y lo que nos depara el futuro, [Codeadores podcast link](https://creators.spotify.com/pod/profile/codeadores/episodes/Erlang-y-Haskell-con-Kiko-Fernndez-e33efgu).
+
 ## **April 2025**
 
 - Accepted proposal for a panel discussion for the internal Ericsson conference on the topic
